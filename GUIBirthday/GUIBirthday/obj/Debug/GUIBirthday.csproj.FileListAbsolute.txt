@@ -1,0 +1,9 @@
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\GUIBirthday\GUIBirthday\bin\Debug\GUIBirthday.exe.config
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\GUIBirthday\GUIBirthday\bin\Debug\GUIBirthday.exe
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\GUIBirthday\GUIBirthday\bin\Debug\GUIBirthday.pdb
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\GUIBirthday\GUIBirthday\obj\Debug\GUIBirthday.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\GUIBirthday\GUIBirthday\obj\Debug\GUIBirthday.Form1.resources
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\GUIBirthday\GUIBirthday\obj\Debug\GUIBirthday.Properties.Resources.resources
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\GUIBirthday\GUIBirthday\obj\Debug\GUIBirthday.csproj.GenerateResource.Cache
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\GUIBirthday\GUIBirthday\obj\Debug\GUIBirthday.exe
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\GUIBirthday\GUIBirthday\obj\Debug\GUIBirthday.pdb

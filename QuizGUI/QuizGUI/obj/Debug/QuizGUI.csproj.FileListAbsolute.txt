@@ -1,0 +1,9 @@
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\QuizGUI\QuizGUI\bin\Debug\QuizGUI.exe.config
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\QuizGUI\QuizGUI\bin\Debug\QuizGUI.exe
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\QuizGUI\QuizGUI\bin\Debug\QuizGUI.pdb
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\QuizGUI\QuizGUI\obj\Debug\QuizGUI.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\QuizGUI\QuizGUI\obj\Debug\QuizGUI.Form1.resources
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\QuizGUI\QuizGUI\obj\Debug\QuizGUI.Properties.Resources.resources
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\QuizGUI\QuizGUI\obj\Debug\QuizGUI.csproj.GenerateResource.Cache
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\QuizGUI\QuizGUI\obj\Debug\QuizGUI.exe
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\QuizGUI\QuizGUI\obj\Debug\QuizGUI.pdb
