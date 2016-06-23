@@ -13,13 +13,20 @@ namespace QuizGUI
     public partial class Form1 : Form
     {
         int timeleft = 60;
-        bool q3correct = true;
         bool q1correct = false;
         bool q2correct = false;
+        bool q3correct = false;
 
         public Form1()
         {
             InitializeComponent();
+            groupBox1.Visible = false;
+            groupBox3.Visible = false;
+            groupBox4.Visible = false;
+
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -33,15 +40,29 @@ namespace QuizGUI
 
         private void button1_Click(object sender, EventArgs e)
         {
+            groupBox1.Visible = true;
+            groupBox3.Visible = true;
+            groupBox4.Visible = true;
+
+            pictureBox1.Visible = true;
+            pictureBox2.Visible = true;
+            pictureBox3.Visible = true;
+
             timeleft = 60;
             timer1.Start();
+            button1.Enabled = false;
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (timeleft > 0)
+            if (q1correct&&q2correct&&q3correct)
             {
-
+                timer1.Stop();
+                MessageBox.Show("Well Done!!! You got all the question right");
+            }
+            else if (timeleft > 0)
+            {
                 //update and display the time left
                 timeleft--;
                 labelTimeLeft.Text = timeleft + "seconds";
@@ -62,17 +83,17 @@ namespace QuizGUI
             Close();
         }
 
-        private void radioButtonQ3A3_CheckedChanged(object sender, EventArgs e)
+        private void radioButtonQ1A3_CheckedChanged(object sender, EventArgs e)
         {
-            if (radioButtonQ3A3.Checked)
+            if (radioButtonQ1A3.Checked)
             {
-                labelAnswer.ForeColor = Color.Green;
-                labelAnswer.Text = "\u00fc"; //tick
-                q3correct = true;
+                labelAnswer1.ForeColor = Color.Green;
+                labelAnswer1.Text = "\u00fc"; //cross
+                q1correct = true;
             }
             else
             {
-                labelAnswer.Text = "";
+                labelAnswer1.Text = "";
             }
         }
 
@@ -80,13 +101,13 @@ namespace QuizGUI
         {
             if (radioButtonQ1A2.Checked)
             {
-                labelAnswer.ForeColor = Color.Red;
-                labelAnswer.Text = "\u00fb"; //cross
-                q2correct = false;
+                labelAnswer1.ForeColor = Color.Red;
+                labelAnswer1.Text = "\u00fb"; //cross
+                q1correct = false;
             }
             else
             {
-                labelAnswer.Text = "";
+                labelAnswer1.Text = "";
             }
         }
 
@@ -94,13 +115,111 @@ namespace QuizGUI
         {
             if (radioButtonQ1A1.Checked)
             {
-                labelAnswer.ForeColor = Color.Red;
-                labelAnswer.Text = "\u00fb"; //cross
+                labelAnswer1.ForeColor = Color.Red;
+                labelAnswer1.Text = "\u00fb"; //cross
                 q1correct = false;
             }
             else
             {
-                labelAnswer.Text = "";
+                labelAnswer1.Text = "";
+            }
+        }
+
+        private void radioButtonQ1A3_CheckedChanged_1(object sender, EventArgs e)
+        {
+            if (radioButtonQ1A3.Checked)
+            {
+                labelAnswer1.ForeColor = Color.Green;
+                labelAnswer1.Text = "\u00fc"; //tick
+                q1correct = true;
+            }
+            else
+            {
+                labelAnswer1.Text = "";
+            }
+        }
+
+        private void radioButtonQ2A1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonQ2A1.Checked)
+            {
+                labelAnswer2.ForeColor = Color.Green;
+                labelAnswer2.Text = "\u00fc"; //tick
+                q2correct = true;
+            }
+            else
+            {
+                labelAnswer2.Text = "";
+            }
+        }
+
+        private void radioButtonQ2A2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonQ2A2.Checked)
+            {
+                labelAnswer2.ForeColor = Color.Red;
+                labelAnswer2.Text = "\u00fb"; //cross
+                q2correct = false;
+            }
+            else
+            {
+                labelAnswer2.Text = "";
+            }
+        }
+
+        private void radioButtonQ2A3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonQ2A3.Checked)
+            {
+                labelAnswer2.ForeColor = Color.Red;
+                labelAnswer2.Text = "\u00fb"; //cross
+                q2correct = false;
+            }
+            else
+            {
+                labelAnswer2.Text = "";
+            }
+        }
+
+        private void radioButtonQ3A1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonQ3A1.Checked)
+            {
+                labelAnswer3.ForeColor = Color.Red;
+                labelAnswer3.Text = "\u00fb"; //cross
+                q3correct = false;
+            }
+            else
+            {
+                labelAnswer3.Text = "";
+            }
+        }
+
+        private void radioButtonQ3A2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonQ3A2.Checked)
+            {
+                labelAnswer3.ForeColor = Color.Green;
+                labelAnswer3.Text = "\u00fc"; //tick
+                q3correct = true;
+            }
+            else
+            {
+                labelAnswer3.Text = "";
+            }
+        }
+
+        private void radioButtonQ3A3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonQ3A3.Checked)
+            {
+                labelAnswer3.ForeColor = Color.Red;
+                labelAnswer3.Text = "\u00fb"; //cross
+                q3correct = false;
+            }
+            else
+            {
+                labelAnswer3.Text = "";
             }
         }
     }
