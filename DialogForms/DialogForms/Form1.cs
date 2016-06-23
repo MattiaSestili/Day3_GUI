@@ -19,9 +19,10 @@ namespace DialogForms
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
             Form2 form2 = new Form2();
             form2.Show();
+            this.Hide();
+            FormState.previousPage = this;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -50,6 +51,11 @@ namespace DialogForms
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
             
+        }
+
+        public static class FormState
+        {
+            public static Form previousPage;
         }
     }
 }

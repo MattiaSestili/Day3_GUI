@@ -1,10 +1,10 @@
-C:\Users\student\Documents\GitHub\C#\Day3_GUI\DialogForms\DialogForms\bin\Debug\DialogForms.exe.config
 C:\Users\student\Documents\GitHub\C#\Day3_GUI\DialogForms\DialogForms\bin\Debug\DialogForms.exe
-C:\Users\student\Documents\GitHub\C#\Day3_GUI\DialogForms\DialogForms\bin\Debug\DialogForms.pdb
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\DialogForms\DialogForms\bin\Debug\DialogForms.exe.config
 C:\Users\student\Documents\GitHub\C#\Day3_GUI\DialogForms\DialogForms\obj\Debug\DialogForms.csprojResolveAssemblyReference.cache
 C:\Users\student\Documents\GitHub\C#\Day3_GUI\DialogForms\DialogForms\obj\Debug\DialogForms.Form1.resources
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\DialogForms\DialogForms\obj\Debug\DialogForms.Form2.resources
 C:\Users\student\Documents\GitHub\C#\Day3_GUI\DialogForms\DialogForms\obj\Debug\DialogForms.Properties.Resources.resources
 C:\Users\student\Documents\GitHub\C#\Day3_GUI\DialogForms\DialogForms\obj\Debug\DialogForms.csproj.GenerateResource.Cache
 C:\Users\student\Documents\GitHub\C#\Day3_GUI\DialogForms\DialogForms\obj\Debug\DialogForms.exe
 C:\Users\student\Documents\GitHub\C#\Day3_GUI\DialogForms\DialogForms\obj\Debug\DialogForms.pdb
-C:\Users\student\Documents\GitHub\C#\Day3_GUI\DialogForms\DialogForms\obj\Debug\DialogForms.Form2.resources
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\DialogForms\DialogForms\bin\Debug\DialogForms.pdb
