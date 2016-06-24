@@ -1,0 +1,15 @@
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\bin\Debug\WindowsFormDB.exe.config
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\bin\Debug\Client.mdf
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\bin\Debug\Client_log.ldf
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\bin\Debug\WindowsFormDB.exe
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\bin\Debug\WindowsFormDB.pdb
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\bin\Debug\EntityFramework.dll
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\bin\Debug\EntityFramework.xml
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\obj\Debug\WindowsFormDB.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\obj\Debug\WindowsFormDB.Form1.resources
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\obj\Debug\WindowsFormDB.Properties.Resources.resources
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\obj\Debug\WindowsFormDB.csproj.GenerateResource.Cache
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\obj\Debug\WindowsFormDB.exe
+C:\Users\student\Documents\GitHub\C#\Day3_GUI\WindowsFormDB\WindowsFormDB\obj\Debug\WindowsFormDB.pdb
